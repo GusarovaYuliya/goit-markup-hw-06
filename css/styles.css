@@ -412,7 +412,7 @@ border: none;
   cursor: pointer;
 }
 
-.visually-hidden {
+/* .visually-hidden {
   position: absolute;
   width: 1px;
   height: 1px;
@@ -421,12 +421,12 @@ border: none;
   overflow: hidden;
   border: 0;
   clip: rect(0 0 0 0);
-}
+} */
 
-.modal-form-check:checked +.modal-form-check-desk {
+/* .modal-form-check:checked +.modal-form-check-desk {
   background-image: ;
   background-color: ;
-}
+} */
 /* --------------SECTION --------------------*/
 
 .clients-list {
