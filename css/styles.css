@@ -846,7 +846,7 @@ margin-top: 16px;
   height: 40px;
   font-weight: 400;
     font-size: 12px;
-    line-height: 2;
+    line-height: 1.5;
     display: flex;
     align-items: center;
     letter-spacing: 0.04em;
@@ -857,6 +857,7 @@ margin-top: 16px;
       border-radius: 4px;
       background-color: transparent;
       padding-left: 16px;
+      
 }
 
 .modal-form-input-footer::placeholder {
@@ -864,9 +865,9 @@ margin-top: 16px;
 }
 
 .modal-form-footer-submit {
-  width: 165px;
+  min-width: 165px;
   height: 40px;
-  font-family: 'Roboto';
+  font-family: "Roboto", sans-serif;
   font-style: normal;
   font-weight: 500;
     font-size: 16px;
