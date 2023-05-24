@@ -454,14 +454,19 @@
                         <label for="user-comment" class="modal-form-field modal-comment">Comment
                             <!-- <span class="modal-form-input-desk">Comment</span> -->
                     </label>
-                                <textarea id="user-comment" name="user-comment" name="user-message" class="modal-form-message" placeholder="Text input">
+                                <textarea id="user-comment" name="user-comment" name="user-message" class="modal-form-message" placeholder="Text input"></textarea>
                 <div class="modal-form-check-desk-type">
                 <input id="user-privacy"  type="checkbox" value="true" name="user-privacy" class="modal-form-check visually-hidden">
-                <label  for="user-privacy" class="modal-form-check-desk">I accept the terms and conditions of the&nbsp<a href="">Privacy
+                <label  for="user-privacy" class="modal-form-check-desk">I accept the terms and conditions of the&nbsp<a class="accent-primary-text" href="">Privacy
                         Policy</a>
+                        <span class="modal-form-check-desk">
+                            <svg class="icon-check-desk" width="10" height="8">
+                                <use href="./images/icons.svg#icon-Vector"></use>
+                            </svg>
+                        </span>
                 </label>
                 </div>
-                </textarea>
+                
                 </div>
                 <button type="submit" class="modal-form-submit">Send</button>
         

@@ -468,7 +468,7 @@ border: none;
   margin-bottom: 24px;
 }
 
-.modal-form-check-desk::before {
+/* .modal-form-check-desk::before {
   display: block;
   width: 16px;
   height: 16px;
@@ -477,6 +477,34 @@ border: none;
   content: '';
   cursor: pointer;
   margin-right: 8px;
+} */
+
+.modal-form-check-desk .modal-form-check:hover,
+.modal-form-check-desk .modal-form-check:focus {
+  background-color: #404bbf;
+  border: none;
+  fill: #ffffff;
+  border-color: #404bbf;
+}
+
+.modal-form-check-desk::before {
+  display: inline-flex;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #2e2f42;
+  border-radius: 2px;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  /* border: 1px solid rgba(46, 47, 66, 0.4); */
+  
+  content: '';
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+.accent-primary-text {
+  color:#4d5ae5;
 }
 
 .visually-hidden {
