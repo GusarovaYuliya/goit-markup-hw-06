@@ -466,8 +466,8 @@ border: none;
 
 .modal-form-check-desk-type {
   margin-bottom: 24px;
-  padding-top: 16px;
-  display: flex;
+  /* padding-top: 16px;
+  display: flex; */
 }
 
 /* .modal-form-check-desk::before {
@@ -485,7 +485,7 @@ border: none;
   display: flex;
   font-weight: 400;
     font-size: 12px;
-    line-height: 1.16;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8E8F99;
 
