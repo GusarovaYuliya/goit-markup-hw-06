@@ -297,6 +297,10 @@ img {
   margin-bottom: 8px;
 }
 
+.modal-email {
+  margin-bottom: 16px;
+}
+
 .text-modal-open {
     font-weight: 500;
     font-size: 16px;
@@ -423,6 +427,10 @@ border: none;
 .modal-form-input-wrapper {
   display: block;
   position: relative;
+}
+
+.modal-form-input:focus {
+  border-color: #4D5AE5;
 }
 
 .modal-form-message {
