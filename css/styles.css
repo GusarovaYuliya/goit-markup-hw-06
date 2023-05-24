@@ -451,6 +451,10 @@ border: none;
   color: rgba(46, 47, 66, 0.4);
 }
 
+.modal-form-check-desk-type {
+  margin-bottom: 24px;
+}
+
 .modal-form-check-desk::before {
   display: block;
   width: 16px;
@@ -498,9 +502,9 @@ border: none;
   align-items: center;
   font-weight: 400;
   font-size: 12px;
-  line-height: 1.16;
+  line-height: 1.17;
   letter-spacing: 0.04em;
-  color: #8E8F99;
+  color:#8e8f99;
   margin-bottom: 24px;
 }
 
