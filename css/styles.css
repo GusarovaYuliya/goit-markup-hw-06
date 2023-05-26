@@ -293,13 +293,14 @@ img {
   padding-bottom: 24px;
 }
 
-.text-form-modal {
+/* .text-form-modal {
   margin-bottom: 8px;
-}
+} */
 
-.modal-email {
+/* .modal-email {
   margin-bottom: 16px;
-}
+} */
+           /* ----------P------------ */
 
 .text-modal-open {
     font-weight: 500;
@@ -310,6 +311,8 @@ img {
     color: #2E2F42;
     margin-bottom: 16px;
 }
+        /* ---------BUTTON------------- */
+
 .modal-close-btn {
   position: absolute;
   top: 24px;
@@ -341,15 +344,19 @@ border: none;
   visibility: hidden;
   pointer-events: none;
 }
+/* --------ІКОНКА-ЗАКРИТТЯ-МОДАЛЬНОГО-ВІКНА------- */
 
 .modal-close-icon {
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
+           /* ----------КЛАС-ФОРМА----------- */
+
 
 .modal-form {
   display: flex;
   flex-direction: column;
 }
+    /* ----------LABEL-ІМЕНІ-ТЕЛЕФОНУ-МЕЙЛУ-КОМЕНТУ------- */
 
 .modal-form-field {
   font-size: 12px;
@@ -360,15 +367,15 @@ border: none;
   display: block;
   margin-bottom: 4px;
 }
+        /* ---------DIV-(INPUT+SVG)---------- */
 
 .icon-form-modal {
+  /* padding-left: 16px; */
   position: relative;
+  display: block;
   /* margin-bottom: 16px; */
 }
-
-.modal-comment {
-  margin-bottom: 16px;
-}
+     /* ----------INPUT---------- */
 
 .modal-form-input {
   width: 100%;
@@ -379,6 +386,7 @@ border: none;
   padding-left: 38px;
   outline: transparent;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  margin-bottom: 8px;
 }
 
 .modal-form-input:focus + .icon-form-modal {
@@ -391,48 +399,24 @@ border: none;
 .modal-form-input:focus + .modal-form-input-icon {
   fill:#4D5AE5;
 }
-
-/* .modal-form-input-desk {
-  display: block;
-  font-weight: 400;
-    font-size: 12px;
-    line-height: 1.16;
-    margin-bottom: 4px;
-    color: #8E8F99;
-} */
+    /* ---------SVG----------- */
 
 .modal-form-input-icon {
+  position: absolute;
   width: 18px;
   height: 24px;
-  position: absolute;
   top: 50%;
-  left: 16px;
+  left: 0;
   transform: translateY(-50%);
   /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
-
-.textarea-modal-text {
-  margin-bottom: 16px;
-}
-
-.modal-form-field-text {
-  font-weight: 400;
-    font-size: 12px;
-    line-height: 1.16;
-    letter-spacing: 0.01em;
-    color: #8E8F99;
-}
-
-.modal-form-input-wrapper {
-  display: block;
-  position: relative;
 }
 
 .modal-form-input:focus {
   border-color: #4D5AE5;
 }
 
+/* -------TEXTAREA----------- */
 .modal-form-message {
   resize: none;
   width: 100%;
@@ -449,12 +433,14 @@ border: none;
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
   border-color: #4D5AE5;
   border: 1px solid rgba(46, 47, 66, 0.2);
+  margin-bottom: 16px;
 }
 
 .modal-form-message:focus {
   border: 1px solid #4D5AE5;
   outline: none;
 }
+
 .modal-form-message::placeholder {
   font-weight: 400;
   font-size: 12px;
@@ -464,11 +450,57 @@ border: none;
   border: 1px solid rgba(46, 47, 66, 0.2)
 }
 
+   /* ----------DIV(CHECKBOX)----------- */
 .modal-form-check-desk-type {
+  display: flex;
+  align-items: center;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8e8f99;
   margin-bottom: 24px;
-  /* padding-top: 16px;
-  display: flex; */
 }
+
+/* --------------SVG-CHECKBOX------------- */
+.icon-check-desk {
+  padding: 4px 3px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
+  border-radius: 2px;
+  cursor: pointer;
+  width: 10px;
+  height: 8px;
+}
+
+.contact-form-checkmark-icon {
+  opacity: 0;
+}
+/* .textarea-modal-text {
+  margin-bottom: 16px;
+} */
+
+/* .modal-form-field-text {
+  font-weight: 400;
+    font-size: 12px;
+    line-height: 1.16;
+    letter-spacing: 0.01em;
+    color: #8E8F99;
+} */
+
+/* .modal-form-input-wrapper {
+  display: block;
+  position: relative;
+} */
+
+
+
+
+
+
+
+/* .modal-form-check-desk-type {
+  margin-bottom: 24px;
+} */
 
 /* .modal-form-check-desk::before {
   display: block;
@@ -481,24 +513,17 @@ border: none;
   margin-right: 8px;
 } */
 
-.modal-form-check {
-  display: flex;
-  font-weight: 400;
-    font-size: 12px;
-    line-height: 1.17;
-    letter-spacing: 0.04em;
-    color: #8E8F99;
 
-}
-.modal-form-check .modal-form-check-desk-type:hover,
+
+/* .modal-form-check .modal-form-check-desk-type:hover,
 .modal-form-check .modal-form-check-desk-type:focus {
   background-color: #404bbf;
   border: none;
   fill: #ffffff;
   border-color: #404bbf;
-}
+} */
 
-.modal-form-check::before {
+/* .modal-form-check::before {
   display: inline-flex;
   width: 16px;
   height: 16px;
@@ -506,12 +531,20 @@ border: none;
   border-radius: 2px;
   align-items: center;
   justify-content: center;
-  fill: transparent;
-  /* border: 1px solid rgba(46, 47, 66, 0.4); */
-  
+  fill: transparent; 
   content: '';
   cursor: pointer;
   margin-right: 8px;
+} */
+/* ----------INPUT-CHECKBOX------------ */
+
+.modal-form-check {
+  display: flex;
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color: #8E8F99;
 }
 
 .accent-primary-text {
@@ -529,8 +562,7 @@ border: none;
   clip: rect(0 0 0 0);
 }
 
-.icon-check-desk:checked +.modal-form-check-desk::before {
-  /* background-image: url(../images/vector.svg); */
+/* .icon-check-desk:checked +.modal-form-check-desk::before {
   background-color: #404BBF;
   border: 1px solid #404BBF;
   border-radius: 2px;
@@ -541,25 +573,16 @@ border: none;
   align-items: center;
   text-align: center;
   padding: 4px 3px;
-}
+} */
 
-.modal-form-check:focus +.modal-form-check-desk::before {
+/* .modal-form-check:focus +.modal-form-check-desk::before {
   transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
   border-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
    box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
-}
+} */
 
-.modal-form-check-desk {
-  display: flex;
-  align-items: center;
-  font-weight: 400;
-  font-size: 12px;
-  line-height: 1.17;
-  letter-spacing: 0.04em;
-  color:#8e8f99;
-  margin-bottom: 24px;
-}
 
+   /* ---------BUTTON------------- */
 .modal-form-submit {
   min-width: 169px;
   height: 56px;
