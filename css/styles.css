@@ -395,12 +395,12 @@ border: none;
     outline: none;
 }
 
-.modal-form-input:focus + .modal-form-input-icon {
+.modal-form-input:focus + .modal-form-input-icon-form {
   fill:#4D5AE5;
 }
     /* ---------SVG----------- */
 
-.modal-form-input-icon {
+.modal-form-input-icon-form {
   position: absolute;
   width: 18px;
   height: 24px;
