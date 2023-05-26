@@ -452,14 +452,14 @@ border: none;
 
    /* ----------DIV(CHECKBOX)----------- */
 .modal-form-check-desk-type {
-  display: flex;
+  /* display: flex;
   align-items: center;
   font-weight: 400;
   font-size: 12px;
   line-height: 1.17;
   letter-spacing: 0.04em;
-  color: #8e8f99;
-  /* margin-bottom: 24px; */
+  color: #8e8f99; */
+  margin-bottom: 24px;
 }
 
 .modal-form-check-desk {
