@@ -466,20 +466,20 @@ border: none;
   margin-bottom: 24px;
 }
 /* --------------SVG-CHECKBOX------------- */
-.icon-check-desk {
+/* .icon-check-desk {
   padding: 4px 3px;
   border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
   cursor: pointer;
   width: 10px;
   height: 8px;
-}
+} */
 
 .contact-form-checkmark-icon {
   opacity: 0;
 }
 
-.modal-form-check:checked + .icon-check-desk > .contact-form-checkmark-icon{
+.modal-form-check-desk-type:checked + .icon-check-desk > .contact-form-checkmark-icon {
   opacity: 1;
   background-color: #404BBF;
 }
@@ -489,7 +489,7 @@ border: none;
   position: absolute;
 }
 
-.modal-form-check:focus+.icon-check-desk {
+.modal-form-check:focus + .icon-check-desk {
   outline: 1px solid #404BBF;
 }
 
