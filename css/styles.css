@@ -479,7 +479,7 @@ border: none;
   opacity: 0;
 } */
 
-.modal-form-check:checked + .modal-form-check-top > .icon-check-desk {
+.modal-form-check:checked + .icon-check-desk > .contact-form-checkmark-icon {
   /* opacity: 1; */
   background-color: #404bbf;
   border: none;
