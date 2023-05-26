@@ -459,9 +459,12 @@ border: none;
   line-height: 1.17;
   letter-spacing: 0.04em;
   color: #8e8f99;
-  margin-bottom: 24px;
+  /* margin-bottom: 24px; */
 }
 
+.modal-form-check-desk {
+  margin-bottom: 24px;
+}
 /* --------------SVG-CHECKBOX------------- */
 .icon-check-desk {
   padding: 4px 3px;
@@ -517,16 +520,19 @@ border: none;
   margin-bottom: 24px;
 } */
 
-/* .modal-form-check-desk::before {
-  display: block;
+.modal-form-check-desk {
+display: inline-flex;
   width: 16px;
   height: 16px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
+  border: 1px solid #2e2f42;
   border-radius: 2px;
-  content: '';
+  align-items: center;
+  justify-content: center;
+   fill: transparent;
+  /* content: '';
   cursor: pointer;
-  margin-right: 8px;
-} */
+  margin-right: 8px; */
+}
 
 
 
@@ -552,7 +558,12 @@ border: none;
   margin-right: 8px;
 }
 /* ----------INPUT-CHECKBOX------------ */
-
+.modal-form-check-top {
+  font-size: 12px;
+  line-height: 1.17;
+  letter-spacing: 0.04em;
+  color:#8e8f99;
+}
 .modal-form-check {
   display: flex;
   font-weight: 400;
