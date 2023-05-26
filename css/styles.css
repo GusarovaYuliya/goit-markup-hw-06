@@ -46,6 +46,9 @@ button {
   --accent-third-color: #ffffff;
   --main-btn-color: #ffffff;
   --header-text-color: #212121;
+  --modal-color-first:#404bbf;
+  --modal-color-second:#ffffff;
+  --modal-color-thirst:#404bbf;
 }
 
 body {
@@ -466,25 +469,14 @@ border: none;
   margin-bottom: 24px;
 }
 /* --------------SVG-CHECKBOX------------- */
-/* .icon-check-desk {
-  padding: 4px 3px;
-  border: 1px solid rgba(46, 47, 66, 0.4);
-  border-radius: 2px;
-  cursor: pointer;
-  width: 10px;
-  height: 8px;
-} */
 
-/* .contact-form-checkmark-icon {
-  opacity: 0;
-} */
 
-.modal-form-check:checked + .icon-check-desk > .contact-form-checkmark-icon {
+.modal-form-check:checked + .modal-form-check-top >.modal-form-check-desk{
   /* opacity: 1; */
-  background-color: #404bbf;
+  background-color: var(--modal-color-first);
   border: none;
-  fill: #ffffff;
-  border-color:#404bbf;
+  fill: var(--modal-color-second);
+  border-color: var(--modal-color-thirst);
 }
 
 .modal-form-check {
@@ -496,6 +488,19 @@ border: none;
   outline: 1px solid #404BBF;
 }
 
+.modal-form-check-desk {
+  display: inline-flex;
+  width: 16px;
+  height: 16px;
+  border: 1px solid #2e2f42;
+  border-radius: 2px;
+  align-items: center;
+  justify-content: center;
+  fill: transparent;
+  /* content: '';
+  cursor: pointer;
+  margin-right: 8px; */
+}
 /* .textarea-modal-text {
   margin-bottom: 16px;
 } */
@@ -523,21 +528,20 @@ border: none;
   margin-bottom: 24px;
 } */
 
-.modal-form-check-desk {
-display: inline-flex;
-  width: 16px;
-  height: 16px;
-  border: 1px solid #2e2f42;
+
+
+/* .icon-check-desk {
+  padding: 4px 3px;
+  border: 1px solid rgba(46, 47, 66, 0.4);
   border-radius: 2px;
-  align-items: center;
-  justify-content: center;
-   fill: transparent;
-  /* content: '';
   cursor: pointer;
-  margin-right: 8px; */
-}
+  width: 10px;
+  height: 8px;
+} */
 
-
+/* .contact-form-checkmark-icon {
+  opacity: 0;
+} */
 
 /* .modal-form-check .modal-form-check-desk-type:hover,
 .modal-form-check .modal-form-check-desk-type:focus {
