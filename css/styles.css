@@ -409,7 +409,7 @@ border: none;
   transform: translateY(-50%);
   /* transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1); */
   transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
-  margin-left: 16px;
+  
 }
 
 .modal-form-input:focus {
@@ -475,13 +475,16 @@ border: none;
   height: 8px;
 } */
 
-.contact-form-checkmark-icon {
+/* .contact-form-checkmark-icon {
   opacity: 0;
-}
+} */
 
-.modal-form-check-desk-type:checked + .icon-check-desk > .contact-form-checkmark-icon {
-  opacity: 1;
-  background-color: #404BBF;
+.modal-form-check:checked + .modal-form-check-top > .icon-check-desk {
+  /* opacity: 1; */
+  background-color: #404bbf;
+  border: none;
+  fill: #ffffff;
+  border-color:#404bbf;
 }
 
 .modal-form-check {
