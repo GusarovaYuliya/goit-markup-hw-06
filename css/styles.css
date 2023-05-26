@@ -475,6 +475,21 @@ border: none;
 .contact-form-checkmark-icon {
   opacity: 0;
 }
+
+.modal-form-check:checked + .icon-check-desk > .contact-form-checkmark-icon{
+  opacity: 1;
+  background-color: #404BBF;
+}
+
+.modal-form-check {
+  appearance: none;
+  position: absolute;
+}
+
+.modal-form-check:focus+.icon-check-desk {
+  outline: 1px solid #404BBF;
+}
+
 /* .textarea-modal-text {
   margin-bottom: 16px;
 } */
@@ -523,7 +538,7 @@ border: none;
   border-color: #404bbf;
 } */
 
-/* .modal-form-check::before {
+.modal-form-check{
   display: inline-flex;
   width: 16px;
   height: 16px;
@@ -535,7 +550,7 @@ border: none;
   content: '';
   cursor: pointer;
   margin-right: 8px;
-} */
+}
 /* ----------INPUT-CHECKBOX------------ */
 
 .modal-form-check {
